@@ -13,3 +13,19 @@ print(year)
 
 
 print(fname, lname, year)
+
+line01 = "********************"
+line02 = "*                  *"
+line03 = "*     Ashley       *"
+line04 = "*      2025        *"
+line05 = "*                  *"
+line06 = "********************"
+
+print("")
+print(line01)
+print(line02)
+print(line03)
+print(line04)
+print(line05)
+print(line06)
+
