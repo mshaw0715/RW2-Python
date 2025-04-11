@@ -10,3 +10,6 @@ print(fname, lname)
 year = "2025"
 
 print(year)
+
+
+print(fname, lname, year)
