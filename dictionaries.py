@@ -65,12 +65,12 @@ print("Good copy!")
 print(band3)
 
 member1 = {
-    "name": "Plant"
-    "instrument" "vocals"
+    "name": "Plant",
+    "instrument": "vocals"
 }
 member2 = {
-    "name": "Page"
-    "instrument" "guitar"
+    "name": "Page",
+    "instrument": "guitar"
 }
 band = {
     "member1": member1, 
