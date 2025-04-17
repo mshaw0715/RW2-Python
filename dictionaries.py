@@ -66,14 +66,64 @@ print(band3)
 
 member1 = {
     "name": "Plant"
-    "instrument" : "vocals"
+    "instrument" "vocals"
 }
 member2 = {
     "name": "Page"
-    "instrument": "guitar"
+    "instrument" "guitar"
 }
 band = {
     "member1": member1, 
     "member2": member2
 }
 print(band)
+print(band["member1"]["name"])
+
+nums = { 1, 2, 3, 4}
+
+nums2 = set((1,2,3,4))
+
+print(nums)
+print(nums2)
+print(type(nums))
+print(len(nums))
+
+
+nums = { 1, 2, 2, 3}
+print(nums)
+
+# true is a dupe of 1, and false is a dupe of 0
+
+nums = {1, True, 2, False, 3, 4, 0}
+print(nums)
+
+print(2 in nums)
+
+nums.add(8)
+print(nums)
+
+morenums = {5, 6, 7}
+nums.update(morenums)
+print(nums)
+
+# you can use update with lists, tuples, and dictionaries
+one = {1, 2, 3}
+two = {5, 6, 7}
+
+mynewset = one.union(two)
+print(mynewset)
+
+# keep only the duplicates
+one = {1, 2, 3}
+two = {2, 3, 4}
+
+one.intersection_update(two)
+print(one)
+
+# keep everything except the duplicates
+one = {1, 2, 3}
+two = {2, 3, 4}
+
+one.symmetric_difference_update(two)
+print(one)
+
