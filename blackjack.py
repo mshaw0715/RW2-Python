@@ -31,7 +31,7 @@ def deal_card(deck):
     deck.remove(card)
     return card
 
-def display_hands(player_hand, deaaler_hand, show_dealer=False):
+def display_hands(player_hand, dealer_hand, show_dealer=False):
     print("\nYour Hand:", ', '.join(player_hand), f"({calculate_hand(player_hand)})")
     if show_dealer:
         print("Dealer's hand", ', '.join(dealer_hand), f"({calculate_hand(dealer_hand)})")
