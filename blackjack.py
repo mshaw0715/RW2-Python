@@ -23,7 +23,7 @@ def calculate_hand(hand):
         while value > 21 and aces:
             value -= 10
             aces -= 1
-        return value
+    return value
     
 
 def deal_card(deck):
