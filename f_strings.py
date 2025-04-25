@@ -23,3 +23,15 @@ student = "Ashley"
 subject = "Python"
 
 print(f"{student} is studying {subject}\n")
+
+message = f"\n{person} has {2 * 5} coins left."
+print(message)
+
+message = f"\n{person.lower()} has {2 * 5} coins left."
+print(message)
+
+num = 10
+print(f"\n2.25 times {num} is {2.25 *num:.2f}\n")
+
+for num in range(1,11):
+    print(f"2.25 times {num} is {2.25 *num:.2f}")
