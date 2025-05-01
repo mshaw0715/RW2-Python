@@ -8,8 +8,8 @@ def hello(name, lang):
         "German": "Hallo",
     }
 
-msg = f""
-print(msg)
+    msg = f"{greetings[lang]} {name}"
+    print(msg)
 
 import argparse
 
@@ -23,9 +23,9 @@ parser.add_argument(
 )
 
 parser.add_argument(
-    "-l", "--lang", metevar="language", required=True,
-    choices=["English","Spanish","German"]
-
+    "-l", "--lang", metavar="language", required=True,
+    choices=["English", "Spanish", "German"],
+    help="The language of the greeting"
 )
 args = parser.parse_args()
 
