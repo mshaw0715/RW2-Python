@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# set -x
+
 # store data in a variable
 mesg="Hello World!"
 
