@@ -19,3 +19,5 @@ echo Hello ${person}
 # for x in {1..10}; do echo "interface ${x}"; echo "switch port access vlan 10"; done
 
 echo $1
+
+# you can see a calender by typing either cal or cal 2025
